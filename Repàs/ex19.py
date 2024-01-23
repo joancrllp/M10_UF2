@@ -23,6 +23,5 @@ print("La nova llista area amb el lavabo modificat es:", areas_pis)
 areas_pis.extend(["Pati interior", 2.78])
 print("La llista d'àrees amb Pati interior afegit es:", areas_pis)
 
-# Imprimir el total de l’àrea del pis.
 total_area_pis = sum(areas_pis[1::2])
 print("L'area total del pis es:", total_area_pis)
